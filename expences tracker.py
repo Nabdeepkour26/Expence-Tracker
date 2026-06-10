@@ -10,8 +10,12 @@ while True:
 
   if choice == "1":
     amount = float(input("Enter the amount: "))
+    date = input("Enter the date: ")
+    category = input("Enter the category: ")
     expense = {
-      "amount": amount
+      "amount": amount,
+      "date": date,
+      "category": category
     }
     expenses.append(expense)
 
