@@ -3,6 +3,8 @@
 A simple Python expense tracker script that allows you to:
 
 - add expense amounts
+- date of item
+-  category of item
 - view recorded expenses
 - calculate the total expense amount
 
